@@ -1,7 +1,13 @@
 {
     "orgName": "Stefan Talkenberg Example",
     "edition": "Developer",
-    "orgPreferences" : {
-        "enabled": ["S1DesktopEnabled"]
+    "settings": {
+        "orgPreferenceSettings": {
+            "chatterEnabled": true,
+            "translation": true,
+            "notesReservedPref01": true
+        },
+        "quoteSettings": { "enableQuote": true },
+        "nameSettings": { "enableMiddleName": true }
     }
 }
