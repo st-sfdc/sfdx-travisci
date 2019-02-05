@@ -1,7 +1,16 @@
 {
-    "orgName": "wade.wegner Example",
-    "edition": "Developer",
-    "orgPreferences" : {
-        "enabled": ["S1DesktopEnabled"]
+    "orgName": "Branch: MAIN R1.0.3 DE",
+    "edition": "Enterprise",
+    "language": "de",
+    "features": [ "PersonAccounts" ],
+    "settings": {
+        "orgPreferenceSettings": {
+            "chatterEnabled": true,
+            "translation": true,
+            "notesReservedPref01": true,
+            "consentManagementEnabled": true
+        },
+        "quoteSettings": { "enableQuote": true },
+        "nameSettings": { "enableMiddleName": true }
     }
 }
